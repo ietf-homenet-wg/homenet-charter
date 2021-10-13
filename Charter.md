@@ -12,11 +12,11 @@ Finally, similar needs for segmentation may occur in other cases, such as separa
 Different segments may be associated with subnets that have different routing and security policies.
 
 * Service providers are deploying IPv6, and support for IPv6 is increasingly available in home gateway devices.
-While IPv6 resembles IPv4 in many ways, it changes address allocation principles and allows direct IP addressability and routing to devices in the home from the Internet.
-This is a promising area in IPv6 that has proved challenging in IPv4 with the proliferation of NAT.
-
-* End-to-end communication is both an opportunity and a concern as it enables new applications but also exposes nodes in the internal networks to receipt of unwanted traffic from the Internet.
-Firewalls that restrict incoming connections may be used to prevent exposure, however, this reduces the efficacy of end-to-end connectivity that IPv6 has the potential to restore.
+Most gateways now include support for RFC7084: they allocate and announce a ULA prefix onto the LAN.
+Support for numbering additional subnets is not ubiqutious.
+Some gateways support DHCPv6-PD on the LAN side, but almost no gateways support HNCP (RFC7788).
+The result is that cascades of NAT44 are now more common than when this WG was initially chartered.
+Some additional transition techniques are needed which do not require a wholesale forklift upgrade of the marketplace.
 
 Home networks need to provide the tools to handle these situations in a manner accessible to all users of home networks.
 Manual configuration is rarely, if at all, possible, as the necessary skills and in some cases even suitable management interfaces are missing.
