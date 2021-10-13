@@ -56,8 +56,3 @@ The main focus of the working group is home networks, but the group's results ma
 The group should assume that an IPv4 network may have to co-exist alongside the IPv6 network and should take this into account insofar as alignment with IPv6 is desirable.
 But the group should also ensure that even IPv6-only are possible, and while IP-version agnostic work is of course desirable, IPv4-specific work is outside the scope of the group.
 
-The working group will liaise with the relevant IETF working groups.
-In particular, the group should work closely with the V6OPS working group, review any use or extension of DHCP with the DHC working group, and work with additional DNS requirements with the DNSEXT and DNSOP working groups.
-If it turns out that additional options are needed for a routing protocol, they will be developed in the appropriate Routing Area working group, with the HOMENET working group providing the architecture and requirements for such enhancements.
-The working group will also liason with external standards bodies where it is expected that there are normative dependencies between the specifications of the two bodies.
-It is expected that in the architecture definition stage liaising with the Broadband Forum, DLNA, UPnP Forum, OASIS, ZigBee Alliance and other SDOs is necessary, as is understanding existing technology from these groups.
