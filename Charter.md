@@ -51,10 +51,13 @@ It is expected that the working group will define a set of protocol specificatio
 However, it is not in the scope of the working group to define entirely new routing protocols or address allocation protocols.
 As noted, additional options or other small extensions may be necessary to use the existing protocols in these new configuration tasks.
 The working group shall also not make any changes to IPv6 protocols or addressing architecture.
+
 Prefix configuration, routing, and security related work shall not cause any changes that are not backwards compatible to existing IPv6 hosts.
 There may be host visible changes in the work on naming and discovery protocols, however.
+
 In its design, the working group shall also consider security aspects and the impact on manageability.
-The main focus of the working group is home networks, but the group's results may also find applications in other small networks.
+The main focus of the working group is home networks, but the group's results may also find applications in other small networks where there is no professional operator.
+
 The group should assume that an IPv4 network may have to co-exist alongside the IPv6 network and should take this into account insofar as alignment with IPv6 is desirable.
 But the group should also ensure that even IPv6-only are possible, and while IP-version agnostic work is of course desirable, IPv4-specific work is outside the scope of the group.
 
