@@ -31,23 +31,7 @@ The purpose of this working group is to focus on this evolution, in particular a
 
 * service discovery
 
-* network security
-
-The task of the group is to produce an architecture document that outlines how to construct home networks involving multiple routers and subnets.
-This document is expected to apply the IPv6 addressing architecture, prefix delegation, global and ULA addresses, source address selection rules and other existing components of the IPv6 architecture, as appropriate. The architecture document should drive what protocols changes, if any, are necessary.
-Specific protocol work described below is expected to be within the scope of the working group once the architecture work is complete.
-However, the group is required to review its charter and milestones with the IESG and IETF community before submitting documents that make protocol changes.
-It is expected that the group has to discuss some of the below solutions, however, in order to complete the architecture work.
-
-The group will apply existing protocols to handle the five requirements above.
-For prefix configuration, existing protocols are likely sufficient, and at worst may need some small enhancements, such as new options.
-For automatic routing, it is expected that existing routing protocols can be used as is, however, a new mechanism may be needed in order to turn a selected protocol on by default.
-For name resolution and service discovery, extensions to existing multicast-based name resolution protocols are needed to enable them to work across subnets.
-
-For network security, the group shall document the concept of "advanced security" as a further development of "simple security" from RFC 6092.
-The main goal of this work is to enable a security policy that adapts to IPv6 threats as they emerge, taking into account not only traffic from the Internet at large, but within and leaving the home network itself.
-
-It is expected that the working group will define a set of protocol specifications to accomplish the five requirements from above.
+It is expected that the working group will define a set of protocol specifications to accomplish the four requirements from above.
 However, it is not in the scope of the working group to define entirely new routing protocols or address allocation protocols.
 As noted, additional options or other small extensions may be necessary to use the existing protocols in these new configuration tasks.
 The working group shall also not make any changes to IPv6 protocols or addressing architecture.
