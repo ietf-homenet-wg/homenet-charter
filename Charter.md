@@ -6,10 +6,8 @@ This evolution in scale and diversity sets some requirements on IETF protocols.
 Some of the relevant trends include:
 
 * Multiple segments: While less complex L3-toplogies involving as few subnets as possible are preferred in home networks for a variety of reasons including simpler management and service discovery, the introduction of more than one subnet into a home network is enough to add complexity that needs to be addressed, and multiple dedicated segments are necessary for some cases.
-For instance, a common feature in modern home routers in the ability to support both guest and private network segments.
-Also, link layer networking technology is poised to become more heterogeneous, as networks begin to employ both traditional Ethernet technology and link layers designed for low-powered sensor networks.
-Finally, similar needs for segmentation may occur in other cases, such as separating building control or corporate extensions from the Internet access network for the home.
-Different segments may be associated with subnets that have different routing and security policies.
+A major push for multiple segments is the introduction of link-layers designed designed for low-powered sensor networks.
+A second push is network partition to avoid excessive broadcast/multicast activity as outlined in RFC9119.
 
 * Service providers are deploying IPv6, and support for IPv6 is increasingly available in home gateway devices.
 While IPv6 resembles IPv4 in many ways, it changes address allocation principles and allows direct IP addressability and routing to devices in the home from the Internet.
